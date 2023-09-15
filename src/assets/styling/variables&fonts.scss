@@ -1,0 +1,363 @@
+@import "https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,1,300&display=swap";
+/*text style*/ 
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  height: fit-content;
+  width: fit-content;
+
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+
+  list-style: none;
+
+  background: none;
+}
+@mixin hb48px {
+     font-size: 48px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin hb36px {
+     font-size: 36px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin hb32px {
+     font-size: 32px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin lb24px {
+     font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin lb20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin lb18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin bb20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin bb18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin bb14px {
+     font-size: 14px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin bb12px {
+     font-size: 12px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  @mixin hm48px {
+     font-size: 48px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin hm36px {
+     font-size: 36px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin hm32px {
+     font-size: 32px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin lm24px {
+     font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin lm20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin lm18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin bm20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin bm18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin bm14px {
+     font-size: 14px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin bm12px {
+     font-size: 12px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  @mixin hr48px {
+     font-size: 48px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin hr36px {
+     font-size: 36px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin hr32px {
+     font-size: 32px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin lr24px {
+     font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin lr20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin lr18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin br20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin br18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin br14px {
+     font-size: 14px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  @mixin br12px {
+     font-size: 12px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  /*text style*/ 
+.hb48px {
+     font-size: 48px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .hb36px {
+     font-size: 36px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .hb32px {
+     font-size: 32px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .lb24px {
+     font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .lb20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .lb18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .bb20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .bb18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .bb14px {
+     font-size: 14px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .bb12px {
+     font-size: 12px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+  }
+  .hm48px {
+     font-size: 48px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .hm36px {
+     font-size: 36px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .hm32px {
+     font-size: 32px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .lm24px {
+     font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .lm20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .lm18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .bm20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .bm18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .bm14px {
+     font-size: 14px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .bm12px {
+     font-size: 12px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 500;
+  }
+  .hr48px {
+     font-size: 48px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .hr36px {
+     font-size: 36px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .hr32px {
+     font-size: 32px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .lr24px {
+     font-size: 24px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .lr20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .lr18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .br20px {
+     font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .br18px {
+     font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .br14px {
+     font-size: 14px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  .br12px {
+     font-size: 12px;
+    font-family: 'Clash Display', sans-serif;
+            line-height: 100%;
+    font-weight: 400;
+  }
+  
+  

@@ -1,0 +1,146 @@
+@import "./mixins&autos.scss";
+.FormCo {
+    @include sc (555px) {
+        @include DFC;
+        .validation {
+            width: -webkit-fill-available !important;
+        }
+        button:first-of-type {
+                margin-top: 12px !important;
+            }
+    }
+
+    display: grid;
+    grid-template-areas:
+        "II C"
+        "IR TR"
+        "LN LN"
+        " .. .. "
+        " .. .. "
+        "SEC PRI";
+    gap: 12px;
+
+    width: min-content;
+
+    .validation {
+        @include DFC;
+        align-items: start;
+        gap: 10px;
+
+        width: clamp(120px, 200px, 240px);
+
+        .Input {
+            @include DFR;
+            align-self: center;
+            gap: 12px;
+
+            padding-left: 25px;
+            width: -webkit-fill-available;
+
+            color: white;
+            background: rgba(255, 255, 255, 0.05);
+            border: 0.5px inset rgba(255, 255, 255, 0);
+
+            position: relative;
+
+            &:hover,
+            &:focus,
+            &:focus-within {
+                border: 0.5px inset rgba(255, 255, 255, 0.25);
+            }
+            input {
+                
+                width: inherit;
+                padding: 12px 25px 12px 0px;
+                color: white;
+            }
+            span {
+                position: absolute;
+                right: 25px;
+                word-spacing: 7px;
+
+                opacity: 0.75;
+                cursor: unset;
+            }
+        }
+        span.info {
+            opacity: 0.45;
+        }
+        &.amount {
+            &:nth-child(1) {
+                grid-area: II;
+            }
+            &:nth-child(2) {
+                grid-area: C;
+            }
+            .Input span {
+                position: static;
+                left: 0;
+                word-spacing: 7px;
+
+                opacity: .75;
+            }
+        }
+        &.percent {
+            .Input {
+                padding-right: 25px;
+                input {
+                    padding: 12px 0px;
+                }
+            }
+            &:nth-child(1) {
+                grid-area: IR;
+            }
+            &:nth-child(2) {
+                grid-area: TR;
+            }
+        }
+        &.length {
+            grid-area: LN;
+            width: -webkit-fill-available;
+            .Input {
+                padding-right: 25px;
+                width: -webkit-fill-available;
+                input {
+                    width: -webkit-fill-available;
+                }
+            }
+        }
+    }
+
+    button {
+        padding: 25px 20px;
+        height: 65px;
+        width: -webkit-fill-available;
+
+        color: white;
+        background: #ff4d00;
+
+        cursor: pointer;
+        transition: box-shadow 0.25s, background 0.25s;
+
+        &.pri {
+            grid-area: PRI;
+        }
+        &.sec {
+            grid-area: SEC;
+            background: #ff4d0045;
+            border: inset 1px #ff4d00;
+            box-sizing: border-box;
+        }
+        &:hover {
+            &.pri {
+                grid-area: PRI;
+                box-shadow: inset 0px -10rem #ffffff;
+                color: #ff4d00;
+            }
+            &.sec {
+                grid-area: SEC;
+                box-shadow: inset 0px -10rem #000;
+                border: inset 1px #ff4d00;
+                color: #ff4d00;
+            }
+        }
+    }
+}
+
